@@ -1,11 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ServicioController;
+use App\Http\Controllers\CitaController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('servicios.index');
 });
 
-Route::get('/saludo', function () {
-    return 'Â¡Hola! Mi proyecto en VS Code ya estÃ¡ funcionando.';
-});
+Route::get('/servicios', [ServicioController::class, 'index'])->name('servicios.index');
+Route::resource('citas', CitaController::class);
