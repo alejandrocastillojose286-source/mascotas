@@ -36,3 +36,11 @@ Sistema web para el control de servicios médicos y agendamiento de citas veteri
    ```bash
    git clone [https://github.com/alejandrocastillojose286-source/mascotas.git](https://github.com/alejandrocastillojose286-source/mascotas.git)
    cd mascotas
+
+## 📸 Vista previa del sistema
+
+### Inicio (Hero Banner)
+![Hero Banner](public/img/hero.png)
+
+### Nuestros Servicios y Nutrición
+![Servicios](public/img/servicios.png)
